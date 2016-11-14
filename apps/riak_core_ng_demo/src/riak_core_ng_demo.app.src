@@ -1,0 +1,17 @@
+{application, riak_core_ng_demo,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { riak_core_ng_demo_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+	riak_core
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
