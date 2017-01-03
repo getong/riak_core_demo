@@ -46,7 +46,7 @@
        {ref,"e58647dd3bb3e21829156786dba68a6a55b1b32d"}},
   1},
  {<<"riak_core">>,
-  {git,"https://github.com/getong/riak_core",
+  {git,"https://github.com/getong/riak_core_ng",
        {ref,"00528200948ff0da764f600b7ceefd7f569408b7"}},
   0},
  {<<"riak_ensemble">>,{pkg,<<"riak_ensemble_ng">>,<<"2.2.0">>},1},
