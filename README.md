@@ -1,4 +1,4 @@
-riak_core_ng_demo
+riak_core_demo
 =====
 
 An OTP application

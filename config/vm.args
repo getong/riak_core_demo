@@ -1,6 +1,6 @@
--sname riak_core_ng_demo
+-sname riak_core_demo
 
--setcookie riak_core_ng_demo_cookie
+-setcookie riak_core_demo_cookie
 
 +K true
 +A30
