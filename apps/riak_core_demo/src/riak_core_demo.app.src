@@ -1,11 +1,11 @@
-{application, riak_core_ng_demo,
+{application, riak_core_demo,
  [{description, "An OTP application"},
   {vsn, "0.1.0"},
   {registered, []},
-  {mod, { riak_core_ng_demo_app, []}},
+  {mod, { riak_core_demo_app, []}},
   {applications,
    [kernel,
-	stdlib,
+    stdlib,
 	crypto,
 	riak_core
    ]},
@@ -13,6 +13,6 @@
   {modules, []},
 
   {maintainers, []},
-  {licenses, []},
+  {licenses, ["Apache 2.0"]},
   {links, []}
  ]}.

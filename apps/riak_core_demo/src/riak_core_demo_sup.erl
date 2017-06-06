@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc riak_core_ng_demo top level supervisor.
+%% @doc riak_core_demo top level supervisor.
 %% @end
 %%%-------------------------------------------------------------------
 
--module(riak_core_ng_demo_sup).
+-module(riak_core_demo_sup).
 
 -behaviour(supervisor).
 

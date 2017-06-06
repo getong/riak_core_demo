@@ -1,9 +1,9 @@
 %%%-------------------------------------------------------------------
-%% @doc riak_core_ng_demo public API
+%% @doc riak_core_demo public API
 %% @end
 %%%-------------------------------------------------------------------
 
--module(riak_core_ng_demo_app).
+-module(riak_core_demo_app).
 
 -behaviour(application).
 
@@ -15,7 +15,7 @@
 %%====================================================================
 
 start(_StartType, _StartArgs) ->
-    riak_core_ng_demo_sup:start_link().
+    riak_core_demo_sup:start_link().
 
 %%--------------------------------------------------------------------
 stop(_State) ->
